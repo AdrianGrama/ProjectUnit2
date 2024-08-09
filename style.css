@@ -1,0 +1,447 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styles --------------------- */
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+  background-color: tan;
+}
+.container {
+  max-width: 1000px;
+  padding: 10px;
+  margin: 1rem 2rem 2rem 3rem;
+  border: 2px solid burlywood;
+  border-radius: 2rem;
+  box-shadow: -3px 10px 20px;
+  background-color: #ddc8ad;
+}
+article {
+  padding: 5px 5px 50px;
+}
+.footer-nav {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: block;
+}
+footer {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+.topnav {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  width: 100%;
+  padding: 1rem;
+  border: 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav {
+  letter-spacing: 0.05em;
+  background-color: beige;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+h1 a {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 100;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  display: block;
+  text-align: center;
+}
+col {
+  margin: 10px;
+  min-height: 250px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:focus {
+  color: cornflowerblue;
+  /* background: linear-gradient(#093145, #8c12c9); */
+  outline: none;
+}
+.contact {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+.topnav:visited {
+  color: #660099;
+}
+a:hover {
+  color: brown;
+}
+#bio {
+  padding: 1.5rem;
+  margin: 6rem;
+  min-height: 250px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: beige;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.fond2 {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 100;
+  font-weight: bold;
+}
+ul.skills {
+  list-style: none;
+  text-shadow: -3px 0px 3px dimgray;
+  text-align: center;
+  display: flex;
+  /* border: 1px solid burlywood; */
+  /* background-color: red; */
+  /* margin: 1rem 2rem 2rem 3rem; */
+  border: 2px solid #e7c89f;
+  border-radius: 2rem;
+  box-shadow: -3px 10px 20px;
+  background-color: #ddc8ad;
+  justify-content: space-evenly;
+  /* margin: 0 auto; */
+  padding: 0.5rem 0 10px;
+}
+h2 {
+  margin: 0px 0 1rem 0;
+  padding: 2px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+#bio p {
+  text-align: left;
+  margin: 0 auto;
+  order: 1;
+  flex: 1;
+  text-align: left;
+  padding: 1rem 2rem;
+}
+.comforta {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+#bio img {
+  width: 40%;
+  margin: 2rem;
+  order: 2;
+  width: 40%;
+  margin: auto;
+  border: 2px solid burlywood;
+  border-radius: 300px;
+}
+img {
+  overflow: clip;
+}
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+.backtop {
+  position: fixed;
+  /* display: inline-block; */
+  margin: 0 auto;
+  bottom: 20px;
+  left: 20px;
+  bottom: 1rem;
+  padding: 10px 15px;
+  background-color: #ddc8ad;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.port1 {
+  background-color: #093145;
+}
+.port2 {
+  background-color: teal;
+}
+.port3 {
+  background-color: steelblue;
+}
+.port4 {
+  background-color: sienna;
+}
+.port5 {
+  background-color: salmon;
+}
+.port6 {
+  background-color: darkgoldenrod;
+}
+.imagine6 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.imagine5 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.imagine4 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.imagine3 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.imagine2 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.imagine1 {
+  max-width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+.footname {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: block;
+  font-weight: bold;
+}
+
+/* Media Queries ------------------- ------------------------------------------*/
+@media (min-width: 320px) {
+  header nav h1 {
+    font-size: 1.5rem;
+  }
+  #bio {
+    padding: 1.5rem;
+    margin: 6rem;
+    min-height: 250px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: beige;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  #bio img {
+    width: 40%;
+    margin: 2rem;
+    order: 2;
+    width: 40%;
+    margin: auto;
+    border: 2px solid burlywood;
+    border-radius: 300px;
+  }
+  .backtop {
+    display: inline-block;
+    position: static;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .topnav {
+    margin-top: 0;
+  }
+  #bio {
+    /* border: 1px solid burlywood; */
+    display: flex;
+    padding: 1rem;
+    margin: 30px;
+  }
+  #bio p {
+    text-align: left;
+    margin: 10px 10px 10px 0;
+    padding: 1px;
+    /* border: 1px solid burlywood; */
+    display: inline-block;
+  }
+  .main-footer {
+    margin: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    color: brown;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footname {
+    display: none;
+  }
+  h2 {
+    margin: 2rem 0 1rem 0;
+    padding: 2px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+@media (min-width: 768px) {
+  .topnav {
+    margin-top: 0;
+    color: brown;
+  }
+
+  .topnav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    background-color: transparent;
+    color: brown;
+  }
+  .footer-nav {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: block;
+  }
+  footer {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .topnav li:last-child {
+    margin-right: 0;
+  }
+
+  .topnav a {
+    color: brown;
+  }
+  .footer-nav {
+    display: block; /* Make footer-nav visible */
+  }
+
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .footer-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-nav a {
+    color: brown;
+  }
+  .skills {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-2 {
+    display: block;
+    /* flex-wrap: wrap; */
+    max-width: 1000px;
+    padding: 10px;
+    margin: 1rem 2rem 2rem 3rem;
+    border: 2px solid #e7c89f;
+    border-radius: 2rem;
+    box-shadow: -3px 10px 20px;
+    background-color: #ddc8ad;
+  }
+  .col {
+    flex-basis: calc(50% - 20px);
+  }
+  #bio img {
+    width: 40%;
+    margin: 2rem;
+    border: 2px solid burlywood;
+    border-radius: 300px;
+    background-size: 30%;
+    margin: 10px 15px 15px 10px;
+  }
+  #bio {
+    display: flex;
+    margin-top: 2rem;
+    border: 2px solid burlywood;
+  }
+  #bio p {
+    text-align: left;
+    padding: 0 2rem;
+  }
+  .backtotop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topnav,
+  .topnav li a {
+    width: initial;
+    margin-bottom: 0;
+    color: brown;
+  }
+  .col {
+    flex-basis: calc(33.333% - 20px);
+  }
+  .container-1 {
+    margin: 1rem 2rem 2rem 3rem;
+    border-radius: 2rem;
+    box-shadow: -3px 10px 20px;
+    background: #ddc8ad;
+  }
+  #bio p {
+    order: 1;
+    flex: 1;
+    text-align: left;
+    padding: 1rem 2rem;
+    border: 2px solid burlywood;
+    border-radius: 2rem;
+    text-align: left;
+    margin: 10px 15px 15px 10px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  #bio img {
+    order: 2;
+    width: 40%;
+    margin: 10px 15px 15px 10px;
+  }
+  .footer-nav {
+    display: block;
+  }
+  .footname {
+    display: block;
+  }
+}
